@@ -1,0 +1,68 @@
+.{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-image:url(bg.jpg);
+    background-size:100%;
+    background-position:auto;
+    font-family: sans-serif;
+
+}
+div.main{
+    width:100%;
+    margin:auto;
+
+}
+button
+{
+    color:black;
+    width:auto;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: small;
+    margin: 10px 0;
+    border:2px solid black;
+    outline:black;
+    cursor: pointer;
+    align-content: center;
+    align-self: center;
+}
+
+.info:hover
+{
+    
+    background-color:cornflowerblue;
+
+}
+.Register:hover
+{
+    
+    background-color:cornflowerblue;
+
+}
+.DD:hover
+{
+    
+    background-color:cornflowerblue;
+
+}
+.review:hover
+{
+    
+    background-color:cornflowerblue;
+
+}
+h1{
+    color:brown;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+h3{
+    color: rgb(212, 11, 135);
+    text-align: center;
+    font-family: sans-serif;
+}
+

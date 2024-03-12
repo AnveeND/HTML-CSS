@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Registration Form </title>
+        <link rel="stylesheet" href="reg.css" type="text/css">
+
+    </head>
+    <body>
+        <div class="main">
+            <div class="Register">
+                <h2>Register Here </h2>
+            <form  action="connect.php" method="post">
+            
+                <label>First Name : </label>
+                <br>
+                <input type="text" name="fname"  placeholder="Enter your first name">
+                <br><br>
+                <lable>Last Name : </lable>
+                <br>
+                <input type ="text" name="lname"  placeholder="Enter your last name">
+                <br><br>
+                <label>Email : </label>
+                <br>
+                <input type="email" name="email"  placeholder="Enter your Email">
+                <br><br>
+                <label>Password : </label>
+                <br>
+                <input type="password" name="pass" placeholder="Enter a password ">
+                <br><br>
+                <lable>Gender : </lable>
+                <br>
+                &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="Gender" id="female">
+                &nbsp;
+                <span id="female">Female</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="Gender" id="male">
+                &nbsp;
+                <span id="male" >male</span>
+                <br><br>
+                <label>Class Allocated : </label>
+                <select name="classs " id="name">
+                    <option value="class 1 ">Class 1 </option>
+                    <option value="class 2 ">Class 2 </option>
+                    <option value="class 3 ">Class 3 </option>
+                    <option value="class 4 ">Class 4 </option>
+                    <option value="class 5 ">Class 5 </option>
+                    <option value="class 6 ">Class 6 </option>
+                    <option value="class 7 ">Class 7 </option>
+                    <option value="class 8 ">Class 8 </option>
+                    <option value="class 9 ">Class 9 </option>
+                    <option value="class 10 ">Class 10 </option>
+                </select>
+                <br><br>
+                <label>Division Allocated : </label>
+                <select name="Division " >
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    
+                </select>
+                <br><br>
+                <label>Subject Allocated : </label>
+                <select name="Sub" >
+                    <option value="English ">English</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="Marathi">Marathi</option>
+                    <option value="Maths">Maths</option>
+                    <option value="Science">Science</option>
+                    <option value="History ">History</option>
+                    <option value="civics">civics</option>
+                    <option value="Economics">Economics</option>
+                    <option value="Geography">Geography</option>
+                </select>
+                <br><br>
+                <input type="button" value="Submit " name="Submit" id="Submit">
+
+
+            </form>
+        </div>
+        </div><!--end main -->
+    </body>
+</html>

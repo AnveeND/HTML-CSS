@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: cursive;
+
+
+}
+
+.vdo{
+    z-index: -1;
+    align-items: center;
+    margin-left: 200px;
+     position: absolute;
+    /* right: 0;
+    left: 0;
+    bottom: 0;
+    
+    margin-left: 50px;
+    width: 350px;
+    height: 200px; */ 
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 120px;
+    margin-top: 250px;
+}
+.title p{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #f56cd3;
+   
+}
+
+.title h4{
+    text-transform: uppercase;
+    font-size: 44px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: white
+}
+
+.food-area{
+    /*background-color: #f4f4f4;*/
+    padding: 100px 0;
+
+}
+
+.container{
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+
+
+.singleFood{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 12px;
+    margin-bottom: 150px;
+}
+
+.foodimg{
+    position: absolute;
+    height: 220px;
+
+}
+
+
+.foodimg h4{
+    position: absolute;
+    left: 0;
+    top: -80px;
+    background-color: peru;
+    color: #f4f4f4;
+    text-transform: capitalize;
+    padding: 10px 20px ;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+
+
+
+
+
+.singleFood2{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 12px;
+    margin-bottom: 150px;
+}
+
+.foodimg2{
+    position: absolute;
+    height: 220px;
+
+}
+
+
+.foodimg2 h4{
+    margin-top: 40px;
+    position: absolute;
+    left: 0;
+    top: -130px;
+    background-color: peru;
+    color: #f4f4f4;
+    text-transform: capitalize;
+    padding: 5px 30px ;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+
+
+
+
+.singleFood3{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.foodimg3{
+    position: absolute;
+    height: 220px;
+
+}
+
+
+.singleFood3 h4{
+    position: absolute;
+    left: 0;
+    top: -80px;
+    background-color: peru;
+    color: #f4f4f4;
+    text-transform: capitalize;
+    padding: 10px 20px ;
+    font-size: 22px;
+    font-weight: 600;
+
+}

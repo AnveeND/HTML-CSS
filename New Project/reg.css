@@ -1,0 +1,89 @@
+.{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-image:url(123.jpg);
+    background-size: cover;
+    background-position:center;
+    font-family: sans-serif;
+
+}
+div.main{
+    width:100%;
+    margin:auto;
+
+}
+
+h2{
+    text-align:center;
+    padding: 20px;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:50px;
+    width:fit-content;
+
+}
+
+div.register{
+    background-color:black;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: #fff;
+
+}
+
+.Register{
+    margin: 40px;
+
+}
+label{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.name{
+    width:300px;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    outline: 1px;
+    padding:7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+button
+{
+    color:aliceblue;
+    width: 70px;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: small;
+    margin: 10px 0;
+    border:2px solid black;
+    outline:black;
+    cursor: pointer;
+    align-content: center;
+}
+.submit{
+    width:200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border:1px solid black;
+    border-radius: 3px;
+    background-color: cadetblue;
+    cursor: pointer;
+
+}
+.submit:hover{
+    background-color: blue;
+}
+
+
+
